@@ -1,7 +1,6 @@
-import { AppProps } from 'next/app'
 import Head from 'next/head'
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
       <title>Guillaume Lefrant</title>
