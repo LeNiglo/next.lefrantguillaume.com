@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp ({ Component, pageProps }) {
   return (<>
     <Head>
       <title>Guillaume Lefrant</title>
@@ -9,5 +9,3 @@ function MyApp({ Component, pageProps }) {
     <Component {...pageProps} />
   </>)
 }
-
-export default MyApp
