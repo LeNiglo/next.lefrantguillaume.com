@@ -12,7 +12,7 @@ module.exports = {
     },
     extend: {
       animation: {
-        'header-background': 'header-background 5s cubic-bezier(.8, 0, .2, 1) 2s infinite alternate both',
+        'header-background': 'header-background 5s cubic-bezier(.8, 0, .2, 1) 5s infinite alternate both',
       },
       keyframes: {
         'header-background': {
